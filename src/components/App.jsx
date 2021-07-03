@@ -1,8 +1,11 @@
 import React from 'react'
-import { CssBaseline } from '@material-ui/core'
+
+const config = require('../../config.json')
+
+const APIRoot = config.SERVER_BASE_URL[process.env.NODE_ENV || "development"];
 
 const App = () => (
-  <div>hi</div>
+  <div>Personal Create React App</div>
 )
 
 export default App

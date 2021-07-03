@@ -1,0 +1,9 @@
+{
+  "API_ROOT": {
+    "API_KEY": "INSERT HERE",
+    "URL": "https://google.com"
+  },
+  "SERVER_BASE_URL": {
+    "development": "http://localhost:3000"
+  }
+}
